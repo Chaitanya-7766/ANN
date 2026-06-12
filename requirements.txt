@@ -1,0 +1,7 @@
+streamlit
+numpy<2
+matplotlib
+scikit-learn
+tensorflow-macos; platform_system == "Darwin" and platform_machine == "arm64"
+tensorflow-metal; platform_system == "Darwin" and platform_machine == "arm64"
+tensorflow; platform_system != "Darwin" or platform_machine != "arm64"
